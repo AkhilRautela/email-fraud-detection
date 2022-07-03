@@ -1,0 +1,9 @@
+tensorflow==2.7.0
+keras==2.7.0
+nltk
+Flask
+flask_cors
+numpy
+pickle
+
+
