@@ -16,6 +16,16 @@ Step 6 : This will download the necessary models and start the libretranslate se
 
 Step 7 : Run the main.py using the command ```python main.py``` File to start the backend server of port 5000
 
-Step 8 : Frontend part ko add karna aur likh dena @aditya @anurag 
+Step 8 : For the frontend make sure your device is on same network with the device where your backend and libretranslate server is running.
+
+Step 9 : If not in same network you can connect through hotspot and wifi.
+
+Step 10 : you can find the default gateway address in wifi settings to be added in the url section of the file src > pages > Home.js > "translateUrl",   "predictUrl", change the url accordingly for example if your default gateway is "10.42.0.1" the urls will be 
+const translateUrl = "http://10.42.0.1:6001/translate";
+const predictUrl = "http://10.42.0.1:5000/predict";
+
+step 11 : Run the server using command : npm start
+
+Step 12 : This will run a frontend server on port 3000 and should automatically open a window on your default browser or else you can type http://locahost:3000 on your browser to run the frontend window.
 
 
