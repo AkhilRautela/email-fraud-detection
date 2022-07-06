@@ -23,6 +23,7 @@ Step 9 : For the frontend to work make sure your device is on same network with 
 Step 10 : If not in same network you can connect through hotspot and wifi.
 
 Step 11 : you can find the default gateway address in wifi settings to be added in the url section of the file src > pages > Home.js > "translateUrl",   "predictUrl", change the url accordingly.
+
 Step 12 : For example if your default gateway is "10.42.0.1" the urls will be 
 const translateUrl = "http://10.42.0.1:6001/translate";
 const predictUrl = "http://10.42.0.1:5000/predict";
